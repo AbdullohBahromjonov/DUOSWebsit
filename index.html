@@ -102,7 +102,7 @@
                         <strong class="text-p-yellow steps">1.</strong> CREATE A WALLET WITH PHANTOM
                     </div>
                     <p class="text-white/80 cursor-pointer font-bold tracking-wider md:text-base text-sm">Visit 
-                        <a class="underline text-p-yellow" href="https://solflare.com/" target="_blank" rel="noopener noreferrer">phantom.com</a> 
+                        <a class="underline text-p-yellow" href="https://phantom.com" target="_blank" rel="noopener noreferrer">phantom.com</a> 
                         and follow the simple steps to create a new account with the PHANTOM APP or Browser extension.
                     </p>
                 </div>
@@ -206,42 +206,6 @@
         } else {
             navbar.classList.remove('Navbar-Shadow');
         }
-    });
-    </script>
-
-    <script>
-    document.getElementById("copyButton").addEventListener("click", function() {
-        // The text you want to copy
-        const textToCopy = "0xb90b2a35c65dbc466b04240097ca756ad2005295";
-
-        // Create a temporary textarea element
-        const tempTextArea = document.createElement("textarea");
-        tempTextArea.value = textToCopy;
-        document.body.appendChild(tempTextArea);
-
-        // Select the text
-        tempTextArea.select();
-        tempTextArea.setSelectionRange(0, 99999); // For mobile devices
-
-        // Copy the text to the clipboard
-        document.execCommand("copy");
-
-        // Remove the temporary textarea
-        document.body.removeChild(tempTextArea);
-
-        // Swap the button image
-        const buttonImage = document.getElementById("copyButton");
-        const originalImage = buttonImage.src;
-        const originalClass = buttonImage.className;
-
-
-        buttonImage.src = "https://cdn.prod.website-files.com/669e988861cff8484adc502f/66d6593400224d3f6c32d16d_btn-copied.svg"; // Replace with the URL of the second image
-        buttonImage.className = "image-9"; // Assign the class "image-9" to the new image
-
-        // Revert back to the original image after 3 seconds
-        setTimeout(function() {
-            buttonImage.src = originalImage;
-        }, 2000);
     });
     </script>
 </body>
