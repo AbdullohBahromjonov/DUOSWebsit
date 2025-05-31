@@ -2863,7 +2863,7 @@ textarea.w-input, textarea.w-select {
   padding-top: 24px;
 }
 
-.heading-bobonomics {
+.heading-tokenomics {
   float: none;
   clear: none;
   color: #ffffff;
@@ -2877,7 +2877,7 @@ textarea.w-input, textarea.w-select {
   line-height: 78%;
 }
 
-.heading-bobonomics.heading {
+.heading-tokenomics.heading {
   margin-top: 32px;
   margin-bottom: 48px;
 }
@@ -2971,7 +2971,7 @@ textarea.w-input, textarea.w-select {
     padding-bottom: 3vw;
   }
 
-  .heading-bobonomics.heading {
+  .heading-tokenomics.heading {
     margin-top: 16px;
     margin-bottom: 32px;
   }
@@ -3247,7 +3247,7 @@ textarea.w-input, textarea.w-select {
     max-width: 45vw;
   }
 
-  .heading-bobonomics {
+  .heading-tokenomics {
     margin-top: 64px;
   }
 
@@ -3803,11 +3803,11 @@ textarea.w-input, textarea.w-select {
     width: 75vw;
   }
 
-  .heading-bobonomics {
+  .heading-tokenomics {
     font-size: 15vw;
   }
 
-  .heading-bobonomics.heading {
+  .heading-tokenomics.heading {
     margin-top: 24px;
     margin-bottom: 40px;
   }
