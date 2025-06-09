@@ -1,3 +1,12 @@
+/* Only keep styles for classes and elements used in the HTML file. Remove all unused Webflow, w-*, and legacy classes. Keep only:
+- duo-roadmap-section, duo-roadmap-header, duo-roadmap-title, duo-roadmap-cards, duo-roadmap-card, duo-roadmap-card-title, duo-roadmap-list, checked
+- container, container-2, container-4, container-8
+- navbar, body, brand, image-*, div-block*, heading-tokenomics, heading-3, display-3, p-dark, text-span, fine-print
+- Responsive media queries for these classes
+- Any base element resets (html, body, a, h1, h2, h3, h4, h5, h6, p, ul, li, img, etc.)
+- :root variables actually used
+Remove everything else. */
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -2060,7 +2069,7 @@ textarea.w-input, textarea.w-select {
 }
 
 :root {
-  --bobo-red: #be0129;
+  --duo-red: #be0129;
   --white: white;
   --black: black;
 }
@@ -2263,7 +2272,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .heading {
-  color: var(--bobo-red);
+  color: var(--duo-red);
   letter-spacing: -2px;
   align-self: flex-start;
   width: 55vw;
@@ -2322,7 +2331,7 @@ textarea.w-input, textarea.w-select {
   line-height: 78%;
 }
 
-.heading.heading-who-is-bobo {
+.heading.heading-who-is-duo {
   margin-top: 3vw;
   padding-bottom: 5vw;
 }
@@ -2571,7 +2580,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .bio_twitter {
-  color: var(--bobo-red);
+  color: var(--duo-red);
   margin-bottom: 0;
   font-family: "Poetsen One", sans-serif;
   font-size: 25px;
@@ -2594,7 +2603,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .link-block-2 {
-  color: var(--bobo-red);
+  color: var(--duo-red);
   text-decoration: none;
 }
 
@@ -2625,7 +2634,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .link-2 {
-  color: var(--bobo-red);
+  color: var(--duo-red);
   text-decoration: none;
 }
 
@@ -2656,7 +2665,7 @@ textarea.w-input, textarea.w-select {
 .div-block-15 {
   grid-column-gap: 4px;
   grid-row-gap: 4px;
-  color: var(--bobo-red);
+  color: var(--duo-red);
   flex-flow: column;
   justify-content: flex-start;
   align-self: center;
@@ -2780,7 +2789,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .merch-price {
-  color: var(--bobo-red);
+  color: var(--duo-red);
   text-align: center;
   font-family: "Poetsen One", sans-serif;
   font-size: 22px;
@@ -2916,7 +2925,7 @@ textarea.w-input, textarea.w-select {
     margin-bottom: 3vw;
   }
 
-  .heading.heading-who-is-bobo {
+  .heading.heading-who-is-duo {
     margin-bottom: 64px;
     display: block;
   }
@@ -3002,7 +3011,7 @@ textarea.w-input, textarea.w-select {
     margin-bottom: 3vw;
   }
 
-  .heading.heading-who-is-bobo {
+  .heading.heading-who-is-duo {
     margin-top: 100px;
     margin-bottom: 120px;
   }
@@ -3106,7 +3115,7 @@ textarea.w-input, textarea.w-select {
     margin-bottom: 3vw;
   }
 
-  .heading.heading-who-is-bobo {
+  .heading.heading-who-is-duo {
     margin-bottom: 345px;
   }
 
@@ -3342,7 +3351,7 @@ textarea.w-input, textarea.w-select {
     font-size: 14vw;
   }
 
-  .heading.heading-who-is-bobo {
+  .heading.heading-who-is-duo {
     margin-top: 6vw;
     padding-bottom: 1vw;
   }
