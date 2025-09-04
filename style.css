@@ -254,6 +254,19 @@ html.w-mod-touch * {
   background-attachment: scroll !important;
 }
 
+.no-space-hr {
+  margin: 0;
+  border-width: 0;
+  border-top-width: 1px;
+  border-style: solid;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
 .w-block {
   display: block;
 }
