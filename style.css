@@ -263,7 +263,7 @@ html.w-mod-touch * {
 
 .center {
   margin: auto;
-  width: 80%;
+  width: 100%;
   padding: 10px;
 }
 
@@ -3942,7 +3942,7 @@ textarea.w-input, textarea.w-select {
 /* HOW TO BUY SECTION */
 .how-to-buy-section {
   padding: 10px 0 20px 0;
-  margin: 40px auto;
+  margin: 10px 0 0 0;
 }
 .how-to-buy-header {
   text-align: center;
@@ -3953,6 +3953,7 @@ textarea.w-input, textarea.w-select {
   font-family: 'Poetsen One', sans-serif;
   font-size: 80px;
   font-weight: bold;
+  padding: 0 10px 0 10px;
 }
 .how-to-buy-subtitle {
   color: #212121;
