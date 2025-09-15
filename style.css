@@ -2466,6 +2466,16 @@ textarea.w-input, textarea.w-select {
   display: block;
 }
 
+.copy-Botton {
+  text-align: left;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .heading-3 {
   color: #FECC02;
   font-family: "Poetsen One", sans-serif;
@@ -3963,6 +3973,17 @@ textarea.w-input, textarea.w-select {
   line-height: 1;
   margin: 0;
 }
+
+.tokenomics-subtitle {
+  color: #ffb400;
+  font-family: 'Poetsen One', sans-serif;
+  font-size: 40px;
+  padding-top: 10px;
+  line-height: 1;
+  margin-top: 70px;
+  text-align: center;
+}
+
 .how-to-buy-steps {
   display: grid;
   grid-template-columns: 1fr 1fr;
