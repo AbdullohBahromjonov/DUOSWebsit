@@ -3980,9 +3980,17 @@ textarea.w-input, textarea.w-select {
   font-size: 40px;
   padding-top: 10px;
   line-height: 1;
-  margin-top: 70px;
+  margin: 0;
   text-align: center;
+
+  white-space: normal;         /* ✅ allow wrapping */
+  word-wrap: break-word;       /* ✅ break long words if needed */
+  overflow-wrap: break-word;   /* ✅ modern support */
+  max-width: 100%;             /* ✅ don’t exceed screen width */
+  box-sizing: border-box;      /* ✅ padding won’t push it outside */
 }
+
+
 
 .how-to-buy-steps {
   display: grid;
